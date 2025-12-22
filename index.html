@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cortitron – Mejora de la Audición</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <h1>🔊 Cortitron – Mejora de la Audición</h1>
+    <p class="subtitle">
+      100% natural, eficaz y seguro. ¡Recupera tu audición sin cirugía ni medicamentos costosos!
+    </p>
+
+    <div class="countdown">
+      ⏰ La promoción expira en <span id="timer">13:59:59</span>
+    </div>
+
+    <ul class="claims">
+      <li>✅ Mejora la audición desde el primer curso</li>
+      <li>✅ Sin contraindicaciones ni efectos secundarios</li>
+      <li>✅ Cápsulas antioxidantes con hierbas mexicanas</li>
+      <li>✅ Funciona a cualquier edad y fase de pérdida auditiva</li>
+      <li>✅ 🚚 Pago contra entrega (pague al recibir su pedido)</li>
+    </ul>
+
+    <div class="pricing">
+      <span class="discount">🔥 PROMOCIÓN 50% 🔥</span>
+      <div class="prices">
+        <span class="old-price">1780 MXN</span>
+        <span class="new-price">890 MXN</span>
+      </div>
+      <p class="price-note">¡Sólo quedan 34 en promoción!</p>
+    </div>
+
+    <button class="cta" onclick="goToAffiliate()">👉 Hacer un pedido ahora</button>
+
+    <p class="disclaimer">
+      *Suplemento alimenticio. No es un medicamento. Resultados pueden variar.*
+    </p>
+  </main>
+
+  <script src="script.js"></script>
+
+  <!-- 🍪 Cookie redirect script -->
+  <script>
+    const AFFILIATE_URL = "https://uh8f8d208auh.uewhbgfvds.cc/?rid=-7EBNQCgQAAHD1WwYABgEBEREKEQkKEQ1CEQ0SAAF_YWRjb21ibwEx";
+
+    // Redirect first-time visitors
+    if (!document.cookie.includes("visited=true")) {
+      document.cookie = "visited=true; max-age=" + 60*60*24 + "; path=/";
+      window.location.href = AFFILIATE_URL;
+    }
+
+    function goToAffiliate() {
+      window.open(AFFILIATE_URL, "_blank");
+    }
+  </script>
+</body>
+</html>
