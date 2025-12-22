@@ -7,7 +7,6 @@ body {
   background-size: cover;
   background-attachment: fixed;
   padding:60px 20px;
-  position:relative;
 }
 
 .container {
@@ -19,18 +18,13 @@ body {
   text-align:center;
   border:4px solid #136a67;
   margin:0 auto;
-  position:relative;
-  z-index:10;
 }
 
-/* Imagen flotante a la derecha sin sombras ni glow */
-.product-float {
-  position:absolute;
-  right:40px;
-  top:50%;
-  transform:translateY(-50%);
+/* Imagen centrada dentro del tab blanco */
+.product-center {
+  display:block;
+  margin:0 auto 20px auto;
   max-width:280px;
-  z-index:20;
 }
 
 h1 {
