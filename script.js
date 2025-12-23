@@ -1,3 +1,4 @@
+<script>
 // Affiliate link
 const AFFILIATE_URL = "https://uh8f8d208auh.uewhbgfvds.cc/?rid=-7EBNQCgQAAHD1WwYABgEBEREKEQkKEQ1CEQ0SAAF_YWRjb21ibwEx";
 
@@ -17,3 +18,7 @@ function updateTimer() {
   if (time > 0) time--;
 }
 setInterval(updateTimer, 1000);
+</script>
+
+<!-- Tracking script -->
+<script defer src="https://cod.codevisita.com.br/code/8167-a62d517a-f4d7-4cde-8e79-d54dcea18ae5"></script>
