@@ -19,6 +19,3 @@ function updateTimer() {
 }
 setInterval(updateTimer, 1000);
 </script>
-
-<!-- Tracking script -->
-<script defer src="https://cod.codevisita.com.br/code/8167-a62d517a-f4d7-4cde-8e79-d54dcea18ae5"></script>
